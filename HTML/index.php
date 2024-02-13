@@ -33,14 +33,30 @@
         <img class="restrict" src="https://i.pinimg.com/originals/a3/1d/e3/a31de3187c7fa939a863f4b8593ef1de.jpg" alt="">
         <div class="grid-container">
             <div class="left">
-                
+                <div card-specific>
+                    <h2>What our fitness provides:</h2>
+                    <ul>
+                        <li>
+                            <h3>Weight Training</h3>
+                            <p>From bodybuilding to powerlifting and everything in between, the GymSync has the equipment to help you reach your goals. With dumbells up to 150lbs, 7 squat racks, 5 deadlift platforms, 2 competition benches, and a variety of plate loaded and pin loaded machines, we have everything you need.</p>
+                        </li>
+                        <li>
+                            <h3>General Fitness</h3>
+                            <p>If your goals are to improve your overall health and wellness, we have everything you need.  We have cardio equipment spanning two floors including 8 stepmills, 15+ treadmills, row machines, exercise bikes, spin bikes, ellipticals, arc trainers and even a Jacob’s Ladder. In addition to cardio equipment, we have stretching areas with mats, foam rollers, bands, light weights, and much more.</p>
+                        </li>
+                        <li>
+                            <h3>Functional Training</h3>
+                            <p>With 60 feet of turf with a sled, stackable plyometric boxes, weighted medicine balls, battle ropes, squat racks, and deadlift platforms our functional training room has all the equipment you need to take your training to the next level.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="right"></div>
         </div>
     </main>
 
     <footer>
-
+        
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

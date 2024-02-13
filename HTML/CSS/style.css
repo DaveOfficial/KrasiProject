@@ -238,12 +238,18 @@ input[type="checkbox"]{
 }
 
 .left{
+  display: flex;
   grid-area: left;
   background-color: aliceblue;
-  width: 100%;
+  width: 50%;
+}
+
+.left h2{
+  text-align: center;
 }
 
 .right{
+  display: flex;
   grid-area: right;
-  width: 100%;
+  width: 50%;
 }
