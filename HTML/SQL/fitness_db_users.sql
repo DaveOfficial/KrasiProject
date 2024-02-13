@@ -27,6 +27,7 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `name` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
   `birth` date NOT NULL,
   `gender` enum('MALE','FEMALE') NOT NULL,
@@ -42,7 +43,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (0,'admin','Verdamt','2000-01-01','MALE','somewher',1),(1,'Alexander','','1999-05-02','MALE','Haudushka 7',0);
+INSERT INTO `users` VALUES (0,'admin','','Verdamt','2000-01-01','MALE','somewher',1),(1,'Alexander','','','1999-05-02','MALE','Haudushka 7',0);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-02-13 13:47:26
+-- Dump completed on 2024-02-13 13:57:23

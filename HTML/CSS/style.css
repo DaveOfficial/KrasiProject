@@ -230,26 +230,39 @@ input[type="checkbox"]{
                 'left left right right';
 }
 
-@media only screen and (max-width: 350px) {
-  .grid-container{
-    grid-template: 'left left'
-                   'right right';
-  }
-}
 
 .left{
   display: flex;
   grid-area: left;
   background-color: aliceblue;
   width: 50%;
+  padding: 5px;
 }
 
 .left h2{
   text-align: center;
 }
 
+.left ul{
+  list-style-type: none;
+  padding: 5px;
+}
+
 .right{
   display: flex;
   grid-area: right;
   width: 50%;
+}
+
+@media only screen and (max-width: 450px) {
+  .grid-container{
+    grid-template: 'left left'
+                   'right right';
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
 }
