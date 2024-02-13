@@ -28,6 +28,7 @@ CREATE TABLE `subscription` (
   `user_id` int(11) NOT NULL,
   `type` enum('BASIC','PREMIUM') NOT NULL,
   `start_date` date DEFAULT curdate(),
+  `is_paid` tinyint(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`user_id`),
   CONSTRAINT `user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -39,7 +40,7 @@ CREATE TABLE `subscription` (
 
 LOCK TABLES `subscription` WRITE;
 /*!40000 ALTER TABLE `subscription` DISABLE KEYS */;
-INSERT INTO `subscription` VALUES (0,'PREMIUM','2024-02-13'),(1,'BASIC','2024-02-12');
+INSERT INTO `subscription` VALUES (0,'PREMIUM','2024-02-13',0),(1,'BASIC','2024-02-12',0);
 /*!40000 ALTER TABLE `subscription` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-02-13 13:15:37
+-- Dump completed on 2024-02-13 13:24:01
