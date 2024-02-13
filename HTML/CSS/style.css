@@ -9,6 +9,7 @@ html::-webkit-scrollbar {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
+    font-size: 1.15rem;
 }
 body{
     background-image: linear-gradient(to top, #2a6bcc, #266bd0, #216cd3, #1b6cd7, #136cda);
@@ -216,15 +217,18 @@ input[type="checkbox"]{
   background-color: aliceblue;
   width: 50%;
   padding: 5px;
+
 }
 
 .left h2{
   text-align: center;
+  font-weight: 600;
 }
 
 .left ul{
   list-style-type: none;
   padding: 5px;
+  font-weight: 500;
 }
 
 .right{

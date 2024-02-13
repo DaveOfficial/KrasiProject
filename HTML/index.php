@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +22,7 @@
                 <ul class="">
                     <li><a href="#">Екип</a></li>
                     <li><a href="#">Планове</a></li>
-                    <li><a href="#">Влез</a></li>
+                    <li><a href="/login.php">Влез</a></li>
                     <li><a href="#">Контакт</a></li>
                 </ul>
           </div>
@@ -34,7 +34,7 @@
         <div class="grid-container">
             <div class="left">
                 <div card-specific>
-                    <h2>What our fitness provides:</h2>
+                    <h2>Какво предлага фитнеса ни:</h2>
                     <ul>
                         <li>
                             <h3>Weight Training</h3>
@@ -51,7 +51,16 @@
                     </ul>
                 </div>
             </div>
-            <div class="right"></div>
+            <div class="right">
+                <div>
+                    <h2></h2>
+                </div>
+                <div>
+                    <h2>
+
+                    </h2>
+                </div>
+            </div>
         </div>
     </main>
 
